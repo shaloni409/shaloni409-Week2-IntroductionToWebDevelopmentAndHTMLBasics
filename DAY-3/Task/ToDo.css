@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(14, 13, 11);
+    color: rgb(240, 231, 231);
+    overflow: hidden;
+}
+
+.container {
+    background-color: #353435;
+    width: fit-content;
+    padding: 2%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    max-height: 500vh;
+    overflow-y: auto;
+    box-shadow: 0px 5px 7px black;
+}
+
+.todo-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: auto;
+    margin: right 25px;
+    width: 300px;
+    height: 30px;
+
+}
+
+.task label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task input {
+    padding: 10px;
+    border: none;
+    width: 250px;
+}
+
+.task input:focus {
+    outline: none;
+    outline: 2px solid rgb(57, 135, 99);
+
+}
+
+.btn-add {
+    background-color: rgb(59, 67, 63);
+    color: white;
+    border: 1px solid ;
+    border-radius: 0px;
+    margin-top: 30px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.btn-add:hover {
+    background-color: rgb(45, 107, 78);
+    ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#error {
+    color: red;
+    margin-top: 5px;
+}
+
+ol {
+    list-style-type: none;
+    color: rgb(243, 241, 131);
+    padding: auto;
+    width: fit-content;
+    background-color: #252225;
+}
+
+li {
+    margin: 10px;
+
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(141, 224, 189);
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.toDo-list{
+   display: flex;
+    flex-direction: row;    
+}
+.toDo-list-item{
+    background-color: #353435;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+
+}
