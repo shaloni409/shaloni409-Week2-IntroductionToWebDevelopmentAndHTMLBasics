@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(93, 106, 118);
+}
+.main-body{
+    background-color: rgb(90, 134, 134);
+    width: 30vw;
+    height: 61vh;
+    margin-left: 430px;
+    margin-top: 100px;
+    border-radius: 12px;
+}
+.main-body h1{
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    border-bottom: 1px solid black ;
+}
+
+.btn{
+    display: flex;
+    margin-left:150px;
+    margin-top: 20px;
+    width: 184px;
+    padding: 10px;
+    height: 50px;
+    text-align:center ;
+    background-color:whitesmoke;
+    border-radius: 12px;
+    
+}
+.display{
+    margin-left: 300px;
+    padding-left: 3px;
+    margin-top: 200px;
+   margin: 2px;
+   padding: 2px;
+}
+.display label{
+    text-decoration: double;
+    margin-left: 30px;
+    font-size: x-large;
+    font-style: italic;
+}
+.display input{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: medium;
+    height: 35px;
+    border-radius: 12px;
+}
+.btn button{
+    display: flex;
+    background-color: rgb(238, 219, 108);
+    padding: 15px;
+    margin-left: 2px;
+    
+    text-shadow: 30px;
+    text-size-adjust: top 10px;
+    font-size: x-large;
+    font-weight: 100;
+    border-radius: 12px;
+
+}
+.cal button{
+    margin-left: 200px;
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(53, 60, 68);
+    color: white;
+    border-radius: 12px;
+}
+.result{
+    margin-left: 210px;
+}
